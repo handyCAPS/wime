@@ -1,0 +1,192 @@
+// This file must be imported before loading html5-boilerplate
+
+// base
+$line-height: 1.4 !default;
+$font-color: #222 !default;
+$font-base: 16px;
+
+
+//---------------------------
+
+//    colors
+
+//---------------------------
+
+$darkGreen:		 #364002;
+$middleGreen:	 #50591E;
+$lightGreen:		 #A0B23C;
+
+//---------------------------
+
+//    Fonts
+
+//---------------------------
+
+@mixin font-face-fanwood-regular {
+	@font-face {
+	    font-family: 'FanwoodRegular';
+	    src: url('../fonts/fanwood/Fanwood-webfont.eot');
+	    src: url('../fonts/fanwood/Fanwood-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/fanwood/Fanwood-webfont.woff') format('woff'),
+	         url('../fonts/fanwood/Fanwood-webfont.ttf') format('truetype'),
+	         url('../fonts/fanwood/Fanwood-webfont.svg#FanwoodRegular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+}
+
+@mixin font-face-fanwood-italic {
+	@font-face {
+	    font-family: 'FanwoodItalic';
+	    src: url('../fonts/fanwood/Fanwood-Italic-webfont.eot');
+	    src: url('../fonts/fanwood/Fanwood-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/fanwood/Fanwood-Italic-webfont.woff') format('woff'),
+	         url('../fonts/fanwood/Fanwood-Italic-webfont.ttf') format('truetype'),
+	         url('../fonts/fanwood/Fanwood-Italic-webfont.svg#FanwoodItalic') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+}
+
+//---------------------------
+
+//    modular scale
+
+//---------------------------
+
+// modulaire schaal 1:1.168
+
+$step-5-gold-16: 1.443;
+$step-4-gold-16: 2.335;
+$step-3-gold-16: 3.778;
+$step-2-gold-16: 6.112;
+$step-1-gold-16: 9.889;
+$step1-gold-16: 16;
+$step2-gold-16: 25.888;
+$step3-gold-16: 41.887;
+$step4-gold-16: 67.773;
+$step5-gold-16: 109.657;
+$step6-gold-16: 177.425;
+$step7-gold-16: 287.074;
+$step8-gold-16: 464.486;
+$step9-gold-16: 751.538;
+
+// modulaire schaal 16@1:1.168 in pixels
+
+$step-5-gold-px: 1.443px;
+$step-4-gold-px: 2.335px;
+$step-3-gold-px: 3.778px;
+$step-2-gold-px: 6.112px;
+$step-1-gold-px: 9.889px;
+$step1-gold-px: 16px;
+$step2-gold-px: 25.888px;
+$step3-gold-px: 41.887px;
+$step4-gold-px: 67.773px;
+$step5-gold-px: 109.657px;
+$step6-gold-px: 177.425px;
+$step7-gold-px: 287.074px;
+$step8-gold-px: 464.486px;
+$step9-gold-px: 751.538px;
+
+// modulaire schaal 1:1.618 in ems
+
+$step-5-gold-em: 0.09em;
+$step-4-gold-em: 0.146em;
+$step-3-gold-em: 0.236em;
+$step-2-gold-em: 0.382em;
+$step-1-gold-em: 0.618em;
+$step1-gold-em: 1em;
+$step2-gold-em: 1.618em;
+$step3-gold-em: 2.618em;
+$step4-gold-em: 4.236em;
+$step5-gold-em: 6.854em;
+$step6-gold-em: 11.089em;
+$step7-gold-em: 17.942em;
+$step8-gold-em: 29.03em;
+$step9-gold-em: 46.971em;
+
+
+@mixin textShadow($h-shadow: 0, $v-shadow: 0, $blur: 0, $cOlOr: #000) {
+	text-shadow: $h-shadow $v-shadow $blur $cOlOr;
+}
+
+//---------------------------------------------------------
+//---------------------------------------------------------
+
+@mixin border-sides($borderColor, $borderWidth, $borderStyle: solid) {
+    border-right: $borderWidth $borderStyle $borderColor;
+    border-left: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-nosides($borderColor, $borderWidth, $borderStyle: solid) {
+    border-top: $borderWidth $borderStyle $borderColor;
+    border-bottom: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-nobottom($borderColor, $borderWidth, $borderStyle: solid) {
+    border-top: $borderWidth $borderStyle $borderColor;
+    border-right: $borderWidth $borderStyle $borderColor;
+    border-left: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-noleft($borderColor, $borderWidth, $borderStyle: solid) {
+    border-top: $borderWidth $borderStyle $borderColor;
+    border-right: $borderWidth $borderStyle $borderColor;
+    border-bottom: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-noright($borderColor, $borderWidth, $borderStyle: solid) {
+    border-top: $borderWidth $borderStyle $borderColor;
+    border-bottom: $borderWidth $borderStyle $borderColor;
+    border-left: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-nobottom-noleft($borderColor, $borderWidth, $borderStyle: solid) {
+    border-top: $borderWidth $borderStyle $borderColor;
+    border-right: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-nobottom-noright($borderColor, $borderWidth, $borderStyle: solid) {
+    border-top: $borderWidth $borderStyle $borderColor;
+    border-left: $borderWidth $borderStyle $borderColor;
+}
+
+@mixin border-bottom($borderColor, $borderWidth, $borderStyle: solid) {
+    border-bottom: $borderWidth $borderStyle $borderColor;
+}
+
+
+
+@mixin multi-transition($what: all, $time: 1s, $ease: ease, $delayed: 0.3s) {
+    transition: $what $time $ease $delayed;
+    -moz-transition: $what $time $ease $delayed;
+    -o-transition: $what $time $ease $delayed;
+    -webkit-transition: $what $time $ease $delayed;
+    -ms-transition: $what $time $ease $delayed;
+}
+
+@mixin multi-transition($what: all, $time: 0.5s, $ease: linear, $delayed: 0.3s) {
+    transition: $what $time $ease $delayed;
+    -moz-transition: $what $time $ease $delayed;
+    -o-transition: $what $time $ease $delayed;
+    -webkit-transition: $what $time $ease $delayed;
+    -ms-transition: $what $time $ease $delayed;
+}
+
+// $base: $font-base;
+
+// mixin modularScale($base, $modScale) {
+// 	$scaleBase:		$base;
+// 	$scaleBase1:	$base*$modScale;
+// 	$scaleBase2:	$scaleBase1*$modScale;
+// 	$scaleBase3:	$scaleBase2*$modScale;
+// 	$scaleBase4:	$scaleBase3*$modScale;
+// 	$scaleBase5:	$scaleBase4*$modScale;
+// 	$scaleBase6:	$scaleBase5*$modScale;
+// 	$scaleBase7:	$scaleBase6*$modScale;
+// 	$scaleBase8:	$scaleBase7*$modScale;
+// 	$scaleBase9:	$scaleBase8*$modScale;
+// 	$scaleBase10:	$scaleBase9*$modScale;
+// }

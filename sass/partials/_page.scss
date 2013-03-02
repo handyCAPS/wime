@@ -1,0 +1,241 @@
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/utilities";
+@import 'modular-scale';
+@import "fonts";
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+body, select, input, textarea {
+  color: $font-color;
+  font-size: $font-base;
+}
+
+//-----------------------------------
+//   fonts
+//-----------------------------------
+@include font-face-fanwood-regular;
+@include font-face-fanwood-italic;
+@include font-face-lovers-quarel;
+@include font-face-charis-regular;
+@include font-face-crete-round-regular;
+@include font-face-droid-serif-regular;
+
+$main-font: 'CharisSILRegular', Georgia, Times, "Times New Roman", serif;
+$header-font: 'DroidSerifRegular', Times, serif;
+$main-font-italic: 'FanwoodItalic', serif;
+$script-font: 'LoversQuarrelRegular', serif;
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+a {
+	text-decoration: none;
+	color: lighten($darkGreen, 19);
+		&:hover {
+			text-decoration: underline;
+			color: lighten($darkGreen, 16);
+		}
+		&:visited {
+			text-decoration: none;
+			color: lighten($middleGreen, 6);
+		}
+}
+
+p>a:visited {
+	text-decoration: none;
+	color: lighten($darkGreen, 19);
+}
+
+a:focus {
+	outline: 0;
+}
+
+ul {
+	list-style-image: url('../images/check.png'); 
+}
+
+ul ul {
+	list-style: disc;
+}
+
+ol ol {
+	list-style-type: circle;
+}
+
+body {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background-color: #f9fbf2;
+	color: darken($darkGreen, 6);
+}
+
+#container {
+	width: 76%;
+	position: relative;
+	margin: 0 auto;
+}
+
+header {
+	margin: 0 auto;
+}
+
+#mainNav {
+	position: relative;
+	@include clearfix;
+	color: $lightGreen;
+	background-color: $darkGreen;
+	padding: 0;
+		ul {
+			margin-left: -($step2-gold-em);
+		}
+		li {
+			float: left;
+			list-style: none;
+			padding: 0 $step3-gold-em $step-1-gold-em 0;
+			margin: 0;
+			line-height: 1;
+				a { 
+					@include multi-transition();
+					@include textShadow();
+					font-family: $header-font;
+					font-size: 1.35*($step1-gold-em);
+					text-decoration: none;		
+					color: $lightGreen;
+					vertical-align: baseline;
+						&:hover {
+							@include textShadow(0.3px, 0, 2px, lighten($darkGreen, 32));
+							color: lighten($lightGreen, 24);
+						}
+				}
+		}
+}
+
+#logo {
+	@include clearfix;
+	position: relative;
+		#logoImage {
+			float: right;
+			width: 28%;
+			min-width: $step7-gold-em;
+			padding: $step1-gold-em $step3-gold-em 0 0;
+		}	
+		#front-quote {
+			float: left;
+			width: 56%;
+			margin: -($step3-gold-em) 0 ;
+			line-height: 0.8;
+				h2 {
+					font-family: $script-font;
+					font-size: $step4-gold-em;
+					color: $middleGreen;
+					opacity: 0.5;
+				}
+		#erkenning {
+			padding-left: $step3-gold-em;
+			text-align: right;
+			display: inline-block;
+		}
+}
+}
+
+#front-quote {
+	float: left;
+}
+
+#main {
+	padding: 0;
+	margin: 0;
+}
+
+#mainWrapper {
+	@include clearfix;
+	position: relative;
+	width: 100%;
+	min-height: $step7-gold-em;
+	background-color: lighten($darkGreen, 68);
+	font-family: $main-font; 
+		
+}
+
+#mainLeft {
+	position: relative;
+	float: left;
+	width: 68%;
+	padding: 0 $step2-gold-em $step2-gold-em;
+	border-right: 1px dotted lighten($middleGreen, 32);
+		p {
+			text-indent: $step2-gold-em;
+		}
+		h2 {
+			margin-top: $step-1-gold-em;
+			font-family: $header-font;
+			font-size: $step3-gold-em;
+			color: lighten($middleGreen, 6);
+		}
+
+}
+
+#mainRight {
+	position: relative;
+	float: left;
+	width: 30%;
+	padding: 0 $step2-gold-em $step2-gold-em;
+	color: darken($middleGreen, 3);
+		p, ul, ol {
+			font-size: 0.86*($step1-gold-em);
+		}
+		h3 {
+			font-family: $header-font;
+			font-size: $step2-gold-em;
+			color: lighten($middleGreen, 3);
+		}
+}
+
+.divider {
+	position: relative;
+	left: -($step2-gold-em);
+	width: 68%;
+	padding: $step-4-gold-em $step-1-gold-em;
+	background-color: $darkGreen;
+	color: $lightGreen;
+		h4 {
+			margin: 0;
+			padding: 0;
+
+		}
+}
+
+#linkTest {
+	text-align: center;
+}
+
+.imageFit {
+	width: 100%;
+}
+
+#hero_image  {
+	width: 100%;
+}
+
+.fixedBox {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+footer {
+	position: relative;
+	margin-top: $step-2-gold-em;
+	min-height: $step5-gold-em;
+	width: 100%;
+	background-color: $darkGreen;
+	border-radius: $step-1-gold-em $step-1-gold-em 0 0;
+}
