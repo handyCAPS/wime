@@ -101,19 +101,36 @@ thead th {
 
 
 button {
-	@include border-radius($step-1-gold-em);
-	@include multi-transition(all, 0.4s, linear, 0.3s);
-	@include gradient-button;
-	@include box-shadow(darken($middleGreen, 28) $step-5-gold-em $step-5-gold-em $step-3-gold-em);
-	padding: $step-3-gold-em $step-1-gold-em;
-	color: $lightGreen;
-	text-shadow: 0px 0.3px lighten($lightGreen, 32);
-	letter-spacing: $step-2-gold-em;
-	text-align: center;
-		&:hover {
-			@include box-shadow(darken($middleGreen, 28) 0.2px 0.2px $step-5-gold-em);
-			color: lighten($lightGreen, 16);
-		}
+	@include buttonStyle;
+}
+
+fieldset {
+	border: 1px solid $middleGreen;
+	background-color: lighten($middleGreen, 56);
+}
+
+label {
+	display: inline-block;
+	min-width: $step6-gold-em;
+	border-bottom: 1px dotted $darkGreen;
+}
+
+input[type="text"], textarea {
+	color: darken($darkGreen, 6);
+	margin: $step1-gold-em 0;
+	background-color: lighten($middleGreen, 64);
+	font-family: $main-font;
+	padding: 0 $step-3-gold-em;
+}
+
+textarea {
+	@include gradient-light-green;
+}
+
+input[type="submit"], input[type="reset"] {
+	@include buttonStyle;
+	margin: $step-1-gold-em $step-2-gold-em;
+	float: right;
 }
 
 body {
@@ -131,15 +148,19 @@ body {
 	margin: 0 auto;
 }
 
+#shadowWrapper {
+	@include outerShadow;
+}
+
 header {
 	margin: 0 auto;
 }
 
 #mainNav {
 	position: relative;
+	@include gradient-darkbar;
 	@include clearfix;
 	color: $lightGreen;
-	background-color: $darkGreen;
 	padding: 0;
 		ul {
 			margin-left: -($step2-gold-em);
@@ -170,6 +191,7 @@ header {
 	@include clearfix;
 	position: relative;
 		#logoImage {
+			@include box-shadow(darken($middleGreen, 28) $step-3-gold-em $step-3-gold-em $step-3-gold-em);
 			float: right;
 			width: 28%;
 			min-width: $step7-gold-em;
@@ -187,7 +209,7 @@ header {
 					opacity: 0.5;
 				}
 		#erkenning {
-			padding-left: $step3-gold-em;
+			padding-left: $step2-gold-em;
 			text-align: right;
 			display: inline-block;
 		}
@@ -204,16 +226,20 @@ header {
 }
 
 #mainWrapper {
+	@include outerShadow;
 	@include clearfix;
+	margin-bottom: $step2-gold-em;
 	position: relative;
 	width: 100%;
 	min-height: $step7-gold-em;
 	background-color: lighten($darkGreen, 68);
 	font-family: $main-font; 
+	border-bottom: 1px solid $middleGreen;
 		
 }
 
 #mainLeft {
+	@include box-shadow($middleGreen 2px 0 7px);
 	background-color: lighten($darkGreen, 76);
 	position: relative;
 	float: left;
@@ -235,7 +261,7 @@ header {
 #mainRight {
 	position: relative;
 	float: left;
-	width: 30%;
+	width: 32%;
 	padding: 0 $step2-gold-em $step2-gold-em;
 	color: darken($middleGreen, 3);
 		p, ul, ol {
@@ -264,6 +290,10 @@ header {
 
 #linkTest {
 	text-align: center;
+}
+
+#tableWrapper {
+	width: 100%;
 }
 
 .imageFit {
@@ -306,9 +336,8 @@ header {
 
 footer {
 	position: relative;
-	margin-top: $step-2-gold-em;
 	min-height: $step5-gold-em;
 	width: 100%;
 	background-color: $darkGreen;
-	border-radius: $step-1-gold-em $step-1-gold-em 0 0;
+	color: $lightGreen;
 }

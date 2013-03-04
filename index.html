@@ -19,114 +19,140 @@
     <div id='container'>
         <header>
           <div id='logo'>
-             <div id='front-quote'><h2 class='quote'>Een druppel inkt kan miljoenen aan het denken zetten.<br><div id='erkenning'>- Lord George Byron</div></h2></div>
+             <div id='front-quote'>
+              <h2 class='quote'>Een druppel inkt kan miljoenen aan het denken zetten.<br><div id='erkenning'>- Lord George Byron</div></h2>
+            </div>
             <img id='logoImage' src="images/logo_384x188.png">
           </div>
-          <nav id='mainNav'>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
+          <div id='shadowWrapper'>
+            <nav id='mainNav'>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+  
+            <div id='hero_image'>
+              <div id='imageQuote'>
+                <h1 class='quote'>Boeken hebben, net als mensen, hun succes vaak aan hun titel te danken.<br><span id='imageErkenning'>- Peter Sirius</span></h1>
+              </div><!--  end imageQuote  -->
+            </div><!--  end hero_image  -->
+            </div><!--  end shadowWrapper  -->
+          </header>
+          <div id='main' role='main' class='fixedBox'>
+            <div id='mainWrapper' class='fixedBox'>
+                <div id='mainLeft' class='fixedBox'>
+                  <article>
+                    <h2>Header H2</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Praesent orci est, luctus vel mollis viverra, facilisis commodo lectus. Curabitur placerat condimentum libero, ac tristique orci posuere ut. Donec venenatis, urna vitae hendrerit ultricies, elit libero pulvinar sapien, vitae fermentum nisl dolor eget sem. Aliquam mattis libero ut elit adipiscing pulvinar. In hac habitasse platea dictumst. In commodo bibendum augue eu dapibus. Sed molestie tempor vestibulum. Nullam pretium nisl nec risus gravida molestie. Praesent ultrices hendrerit risus, sit amet varius ipsum cursus at. </p>
+                      <div class='divider'><h4>Een onderscheid tussen de lagen</h4></div>
+                      <p>Vestibulum pretium dapibus massa, ultricies interdum tellus accumsan a. Sed ornare nulla felis. Proin dapibus ultrices nibh, a rutrum odio fringilla et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ultricies vestibulum ante vel consectetur. </p>
+                      <p>Pellentesque congue sapien eu erat tristique fermentum. In euismod luctus rhoncus. Cras ut scelerisque sem. Donec bibendum viverra imperdiet. Phasellus diam tellus, dignissim sit amet mollis non, pellentesque vitae felis. Integer cursus massa non mauris egestas eu sodales nisi dapibus. Integer vitae nulla felis.</p> 
+                      <h4>Table</h4>
+                  <div id='tableWrapper'>
+                    <table>
+                        <thead><tr><th>Een hele mooie tafel</th></tr></thead>
+                        <tbody>
+                          <tr>
+                            <th></th>
+                            <th>Eerste</th>
+                            <th>Tweede</th>
+                            <th>Derde</th>
+                          </tr>
+                          <tr>
+                            <th>Cijfers</th>
+                            <td>Item 1</td>
+                            <td>Item 2</td>
+                            <td>Item 3</td>
+                          </tr>
+                          <tr>
+                            <th>Hoofdletters</th>
+                            <td>Item A</td>
+                            <td>Item B</td>
+                            <td>Item C</td>
+                          </tr>
+                          <tr>
+                            <th>Kleine letters</th>
+                            <td>Item a</td>
+                            <td>Item b</td>
+                            <td>Item c</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div><!--  end tableWrapper  -->
+                    <h4>Form</h4>
+                  <div id='formTest'>
+                    <form>
+                      <fieldset>
+                        <label for='voorNaam'>Voornaam:</label> 
+                        <input type='text' name='voorNaam'><br>
+                        <label for="achterNaam">Achternaam:</label> 
+                        <input type='text' name='achterNaam'><br>
+                        <label for="bericht">Bericht:</label> 
+                        <textarea rows="4" cols="34" name='bericht'></textarea><br>
+                        <input type="submit" value="Verzend">
+                        <input type="reset" name="Herstel">
+                      </fieldset>
+                    </form>
+                  </div><!--  end formTest  -->
+                </div><!--  end mainLeft  -->
 
-          <div id='hero_image' >
-            <div id='imageQuote'>
-              <h1 class='quote'>Boeken hebben, net als mensen, hun succes vaak aan hun titel te danken.<br><span id='imageErkenning'>- Peter Sirius</span></h1>
-            </div>
-          </div>
-          
-        </header>
-        <div id='main' role='main' class='fixedBox'>
-          <div id='mainWrapper' class='fixedBox'>
-              <div id='mainLeft' class='fixedBox'>
-                <article>
-                  <h2>Header H2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Praesent orci est, luctus vel mollis viverra, facilisis commodo lectus. Curabitur placerat condimentum libero, ac tristique orci posuere ut. Donec venenatis, urna vitae hendrerit ultricies, elit libero pulvinar sapien, vitae fermentum nisl dolor eget sem. Aliquam mattis libero ut elit adipiscing pulvinar. In hac habitasse platea dictumst. In commodo bibendum augue eu dapibus. Sed molestie tempor vestibulum. Nullam pretium nisl nec risus gravida molestie. Praesent ultrices hendrerit risus, sit amet varius ipsum cursus at. </p>
-                    <div class='divider'><h4>Een onderscheid tussen de lagen</h4></div>
-                    <p>Vestibulum pretium dapibus massa, ultricies interdum tellus accumsan a. Sed ornare nulla felis. Proin dapibus ultrices nibh, a rutrum odio fringilla et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ultricies vestibulum ante vel consectetur. </p>
-                    <p>Pellentesque congue sapien eu erat tristique fermentum. In euismod luctus rhoncus. Cras ut scelerisque sem. Donec bibendum viverra imperdiet. Phasellus diam tellus, dignissim sit amet mollis non, pellentesque vitae felis. Integer cursus massa non mauris egestas eu sodales nisi dapibus. Integer vitae nulla felis.</p> 
+                <div id='mainRight' class='fixedBox'>
+                  <article>
+                    <h3>Header H3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="http://www.linkstorm.nl">Praesent orci est</a>, luctus vel mollis viverra, facilisis commodo lectus. Curabitur placerat condimentum libero, ac tristique orci posuere ut. Donec venenatis, urna vitae hendrerit ultricies, elit libero pulvinar sapien, vitae fermentum nisl dolor eget sem. Aliquam mattis libero ut elit adipiscing pulvinar. In hac habitasse platea dictumst. In commodo bibendum augue eu dapibus. Sed molestie tempor vestibulum. Nullam pretium nisl nec risus gravida molestie. Praesent ultrices hendrerit risus, sit amet varius ipsum cursus at. </p>
+                  </article>
+                  <div>
                     <h4>Ordered list</h4>
-                    <ol>
-                      <li>Nummer een</li>
-                      <li>Nummer twee</li>
-                      <li>Nummer drie
-                        <ol>
-                          <li>Nest een</li>
-                          <li>Nest twee</li>
-                        </ol>
-                      </li>
-                    </ol>
+                      <ol>
+                        <li>Nummer een</li>
+                        <li>Nummer twee</li>
+                        <li>Nummer drie
+                          <ol>
+                            <li>Nest een</li>
+                            <li>Nest twee</li>
+                          </ol>
+                        </li>
+                      </ol>
+                      <br>
+                      <h4>Unordered list</h4>
+                      <ul>
+                        <li>Eerste item</li>
+                        <li>Tweede item</li>
+                        <li>Derde Item
+                          <ul>
+                            <li>Eerste geneste item</li>
+                            <li>Tweede geneste item</li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </article>
+                  
+                  </div>
+                  <div id='linkTest'>
+                    <a href='http://www.naaiatlier.nl'>Link</a>
                     <br>
-                    <h4>Unordered list</h4>
-                    <ul>
-                      <li>Eerste item</li>
-                      <li>Tweede item</li>
-                      <li>Derde Item
-                        <ul>
-                          <li>Eerste geneste item</li>
-                          <li>Tweede geneste item</li>
-                        </ul>
-                      </li>
-                    </ul>
-                </article>
-                <h4>Table</h4>
-                <table>
-                  <thead><tr><th>Een hele mooie tafel</th></tr></thead>
-                  <tbody>
-                    <tr>
-                      <th></th>
-                      <th>Eerste</th>
-                      <th>Tweede</th>
-                      <th>Derde</th>
-                    </tr>
-                    <tr>
-                      <th>Cijfers</th>
-                      <td>Item 1</td>
-                      <td>Item 2</td>
-                      <td>Item 3</td>
-                    </tr>
-                    <tr>
-                      <th>Hoofdletters</th>
-                      <td>Item A</td>
-                      <td>Item B</td>
-                      <td>Item C</td>
-                    </tr>
-                    <tr>
-                      <th>Kleine letters</th>
-                      <td>Item a</td>
-                      <td>Item b</td>
-                      <td>Item c</td>
-                    </tr>
-                  </tbody>
-                </table>
+                    <a href="#">Bezochte link</a>
+                    <br><br>
+                    <button>Button</button>
+                  </div>
+                </div><!--  end mainRight  -->  
+            </div><!--  end mainWrapper -->
+          </div><!--  end main  -->
+          </div><!--  end container  -->
 
-              </div><!--  end mainLeft  -->
-              <div id='mainRight' class='fixedBox'>
-                <article>
-                  <h3>Header H3</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="http://www.linkstorm.nl">Praesent orci est</a>, luctus vel mollis viverra, facilisis commodo lectus. Curabitur placerat condimentum libero, ac tristique orci posuere ut. Donec venenatis, urna vitae hendrerit ultricies, elit libero pulvinar sapien, vitae fermentum nisl dolor eget sem. Aliquam mattis libero ut elit adipiscing pulvinar. In hac habitasse platea dictumst. In commodo bibendum augue eu dapibus. Sed molestie tempor vestibulum. Nullam pretium nisl nec risus gravida molestie. Praesent ultrices hendrerit risus, sit amet varius ipsum cursus at. </p>
-                </article>
-                <div id='linkTest'>
-                  <a href='http://www.naaiatlier.nl'>Link</a>
-                  <br>
-                  <a href="#">Bezochte link</a>
-                  <br><br>
-                  <button>Submit</button>
-                </div>
-              </div><!--  end mainRight  -->  
-          </div><!--  end mainWrapper -->
-        </div><!--  end main  -->
+          <footer>
+          </footer>
+        
 
-        <footer>
-        </footer>
-
-    </div><!--  end container  -->
+    
 
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
     <script>
       window.jQuery || document.write("<script src='js/jquery-1.6.2.min.js'>\x3C/script>")
     </script>
+    
     <script src='js/plugins.js'></script>
     <script src='js/script.js'></script>
     <script>

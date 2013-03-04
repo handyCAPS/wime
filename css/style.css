@@ -495,7 +495,7 @@ button {
   letter-spacing: 0.382em;
   text-align: center;
 }
-/* line 113, ../sass/partials/_page.scss */
+/* line 129, ../sass/partials/_base.scss */
 button:hover {
   -webkit-box-shadow: black 0.2px 0.2px 0.09em;
   -moz-box-shadow: black 0.2px 0.2px 0.09em;
@@ -503,7 +503,92 @@ button:hover {
   color: #c1cf71;
 }
 
-/* line 119, ../sass/partials/_page.scss */
+/* line 107, ../sass/partials/_page.scss */
+fieldset {
+  border: 1px solid #50591e;
+  background-color: #dce4b0;
+}
+
+/* line 112, ../sass/partials/_page.scss */
+label {
+  display: inline-block;
+  min-width: 11.089em;
+  border-bottom: 1px dotted #364002;
+}
+
+/* line 118, ../sass/partials/_page.scss */
+input[type="text"], textarea {
+  color: #1d2201;
+  margin: 1em 0;
+  background-color: #eaefcf;
+  font-family: "CharisSILRegular", Georgia, Times, "Times New Roman", serif;
+  padding: 0 0.236em;
+}
+
+/* line 126, ../sass/partials/_page.scss */
+textarea {
+  background: #eef2d9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #eef2d9 0%, #eef2d9 76%, #e3e9bf 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eef2d9), color-stop(76%, #eef2d9), color-stop(100%, #e3e9bf));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eef2d9 0%, #eef2d9 76%, #e3e9bf 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eef2d9 0%, #eef2d9 76%, #e3e9bf 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #eef2d9 0%, #eef2d9 76%, #e3e9bf 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #eef2d9 0%, #eef2d9 76%, #e3e9bf 100%);
+  /* W3C */
+}
+
+/* line 130, ../sass/partials/_page.scss */
+input[type="submit"], input[type="reset"] {
+  -webkit-border-radius: 0.618em;
+  -moz-border-radius: 0.618em;
+  -ms-border-radius: 0.618em;
+  -o-border-radius: 0.618em;
+  border-radius: 0.618em;
+  transition: all 0.4s linear 0.3s;
+  -moz-transition: all 0.4s linear 0.3s;
+  -o-transition: all 0.4s linear 0.3s;
+  -webkit-transition: all 0.4s linear 0.3s;
+  -ms-transition: all 0.4s linear 0.3s;
+  background: #50591e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #50591e 0%, #50591e 50%, #364002 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #50591e), color-stop(50%, #50591e), color-stop(100%, #364002));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #50591e 0%, #50591e 50%, #364002 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #50591e 0%, #50591e 50%, #364002 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #50591e 0%, #50591e 50%, #364002 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #50591e 0%, #50591e 50%, #364002 100%);
+  /* W3C */
+  -webkit-box-shadow: black 0.09em 0.09em 0.236em;
+  -moz-box-shadow: black 0.09em 0.09em 0.236em;
+  box-shadow: black 0.09em 0.09em 0.236em;
+  padding: 0.236em 0.618em;
+  color: #a0b23c;
+  text-shadow: 0px 0.3px #dbe4ae;
+  letter-spacing: 0.382em;
+  text-align: center;
+  margin: 0.618em 0.382em;
+  float: right;
+}
+/* line 129, ../sass/partials/_base.scss */
+input[type="submit"]:hover, input[type="reset"]:hover {
+  -webkit-box-shadow: black 0.2px 0.2px 0.09em;
+  -moz-box-shadow: black 0.2px 0.2px 0.09em;
+  box-shadow: black 0.2px 0.2px 0.09em;
+  color: #c1cf71;
+}
+
+/* line 136, ../sass/partials/_page.scss */
 body {
   width: 100%;
   position: relative;
@@ -513,32 +598,52 @@ body {
   color: #1d2201;
 }
 
-/* line 128, ../sass/partials/_page.scss */
+/* line 145, ../sass/partials/_page.scss */
 #container {
   width: 76%;
   position: relative;
   margin: 0 auto;
 }
 
-/* line 134, ../sass/partials/_page.scss */
+/* line 151, ../sass/partials/_page.scss */
+#shadowWrapper {
+  -webkit-box-shadow: #3b4216 2px 2px 0.618em;
+  -moz-box-shadow: #3b4216 2px 2px 0.618em;
+  box-shadow: #3b4216 2px 2px 0.618em;
+}
+
+/* line 155, ../sass/partials/_page.scss */
 header {
   margin: 0 auto;
 }
 
-/* line 138, ../sass/partials/_page.scss */
+/* line 159, ../sass/partials/_page.scss */
 #mainNav {
   position: relative;
+  background: #50591e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #50591e 0%, #394015 16%, #364002 50%, #394015 86%, #394015 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #50591e), color-stop(16%, #394015), color-stop(50%, #364002), color-stop(86%, #394015), color-stop(100%, #394015));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #50591e 0%, #394015 16%, #364002 50%, #394015 86%, #394015 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #50591e 0%, #394015 16%, #364002 50%, #394015 86%, #394015 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #50591e 0%, #394015 16%, #364002 50%, #394015 86%, #394015 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #50591e 0%, #394015 16%, #364002 50%, #394015 86%, #394015 100%);
+  /* W3C */
   overflow: hidden;
   *zoom: 1;
   color: #a0b23c;
-  background-color: #364002;
   padding: 0;
 }
-/* line 144, ../sass/partials/_page.scss */
+/* line 165, ../sass/partials/_page.scss */
 #mainNav ul {
   margin-left: -1.618em;
 }
-/* line 147, ../sass/partials/_page.scss */
+/* line 168, ../sass/partials/_page.scss */
 #mainNav li {
   float: left;
   list-style: none;
@@ -546,7 +651,7 @@ header {
   margin: 0;
   line-height: 1;
 }
-/* line 153, ../sass/partials/_page.scss */
+/* line 174, ../sass/partials/_page.scss */
 #mainNav li a {
   transition: all 0.5s linear 0.3s;
   -moz-transition: all 0.5s linear 0.3s;
@@ -560,70 +665,81 @@ header {
   color: #a0b23c;
   vertical-align: baseline;
 }
-/* line 161, ../sass/partials/_page.scss */
+/* line 182, ../sass/partials/_page.scss */
 #mainNav li a:hover {
   text-shadow: 0.3px 0 2px #bcde07;
   color: #ced98f;
 }
 
-/* line 169, ../sass/partials/_page.scss */
+/* line 190, ../sass/partials/_page.scss */
 #logo {
   overflow: hidden;
   *zoom: 1;
   position: relative;
 }
-/* line 172, ../sass/partials/_page.scss */
+/* line 193, ../sass/partials/_page.scss */
 #logo #logoImage {
+  -webkit-box-shadow: black 0.236em 0.236em 0.236em;
+  -moz-box-shadow: black 0.236em 0.236em 0.236em;
+  box-shadow: black 0.236em 0.236em 0.236em;
   float: right;
   width: 28%;
   min-width: 17.942em;
   padding: 1em 2.618em 0 0;
 }
-/* line 178, ../sass/partials/_page.scss */
+/* line 200, ../sass/partials/_page.scss */
 #logo #front-quote {
   float: left;
   width: 56%;
   margin: -2.618em 0;
   line-height: 0.8;
 }
-/* line 183, ../sass/partials/_page.scss */
+/* line 205, ../sass/partials/_page.scss */
 #logo #front-quote h2 {
   font-family: "LoversQuarrelRegular", serif;
   font-size: 4.236em;
   color: #50591e;
   opacity: 0.5;
 }
-/* line 189, ../sass/partials/_page.scss */
+/* line 211, ../sass/partials/_page.scss */
 #logo #front-quote #erkenning {
-  padding-left: 2.618em;
+  padding-left: 1.618em;
   text-align: right;
   display: inline-block;
 }
 
-/* line 197, ../sass/partials/_page.scss */
+/* line 219, ../sass/partials/_page.scss */
 #front-quote {
   float: left;
 }
 
-/* line 201, ../sass/partials/_page.scss */
+/* line 223, ../sass/partials/_page.scss */
 #main {
   padding: 0;
   margin: 0;
 }
 
-/* line 206, ../sass/partials/_page.scss */
+/* line 228, ../sass/partials/_page.scss */
 #mainWrapper {
+  -webkit-box-shadow: #3b4216 2px 2px 0.618em;
+  -moz-box-shadow: #3b4216 2px 2px 0.618em;
+  box-shadow: #3b4216 2px 2px 0.618em;
   overflow: hidden;
   *zoom: 1;
+  margin-bottom: 1.618em;
   position: relative;
   width: 100%;
   min-height: 17.942em;
   background-color: #edfca1;
   font-family: "CharisSILRegular", Georgia, Times, "Times New Roman", serif;
+  border-bottom: 1px solid #50591e;
 }
 
-/* line 216, ../sass/partials/_page.scss */
+/* line 241, ../sass/partials/_page.scss */
 #mainLeft {
+  -webkit-box-shadow: #50591e 2px 0 7px;
+  -moz-box-shadow: #50591e 2px 0 7px;
+  box-shadow: #50591e 2px 0 7px;
   background-color: #f5fdc8;
   position: relative;
   float: left;
@@ -631,11 +747,11 @@ header {
   padding: 0 1.618em 1.618em;
   border-right: 1px dotted #b4c655;
 }
-/* line 223, ../sass/partials/_page.scss */
+/* line 249, ../sass/partials/_page.scss */
 #mainLeft p:nth-child(2) {
   text-indent: 1.618em;
 }
-/* line 226, ../sass/partials/_page.scss */
+/* line 252, ../sass/partials/_page.scss */
 #mainLeft h2 {
   margin-top: 0.618em;
   font-family: "DroidSerifRegular", Times, serif;
@@ -643,26 +759,26 @@ header {
   color: #657026;
 }
 
-/* line 235, ../sass/partials/_page.scss */
+/* line 261, ../sass/partials/_page.scss */
 #mainRight {
   position: relative;
   float: left;
-  width: 30%;
+  width: 32%;
   padding: 0 1.618em 1.618em;
   color: #464e1a;
 }
-/* line 241, ../sass/partials/_page.scss */
+/* line 267, ../sass/partials/_page.scss */
 #mainRight p, #mainRight ul, #mainRight ol {
   font-size: 0.86em;
 }
-/* line 244, ../sass/partials/_page.scss */
+/* line 270, ../sass/partials/_page.scss */
 #mainRight h3 {
   font-family: "DroidSerifRegular", Times, serif;
   font-size: 1.618em;
   color: #5a6422;
 }
 
-/* line 251, ../sass/partials/_page.scss */
+/* line 277, ../sass/partials/_page.scss */
 .divider {
   position: relative;
   left: -1.618em;
@@ -671,23 +787,28 @@ header {
   background-color: #364002;
   color: #c1cf71;
 }
-/* line 258, ../sass/partials/_page.scss */
+/* line 284, ../sass/partials/_page.scss */
 .divider h4 {
   margin: 0;
   padding: 0;
 }
 
-/* line 265, ../sass/partials/_page.scss */
+/* line 291, ../sass/partials/_page.scss */
 #linkTest {
   text-align: center;
 }
 
-/* line 269, ../sass/partials/_page.scss */
+/* line 295, ../sass/partials/_page.scss */
+#tableWrapper {
+  width: 100%;
+}
+
+/* line 299, ../sass/partials/_page.scss */
 .imageFit {
   width: 100%;
 }
 
-/* line 273, ../sass/partials/_page.scss */
+/* line 303, ../sass/partials/_page.scss */
 #imageQuote {
   float: right;
   width: 62%;
@@ -695,7 +816,7 @@ header {
   opacity: 0.36;
 }
 
-/* line 280, ../sass/partials/_page.scss */
+/* line 310, ../sass/partials/_page.scss */
 #hero_image {
   width: 100%;
   height: 17.942em;
@@ -703,7 +824,7 @@ header {
   background-size: cover;
   line-height: 1;
 }
-/* line 286, ../sass/partials/_page.scss */
+/* line 316, ../sass/partials/_page.scss */
 #hero_image h1 {
   text-shadow: 0 0 6px #293102;
   padding: 0.236em 0.618em;
@@ -712,7 +833,7 @@ header {
   color: #edfca1;
 }
 
-/* line 296, ../sass/partials/_page.scss */
+/* line 326, ../sass/partials/_page.scss */
 #imageErkenning {
   display: inline-block;
   position: relative;
@@ -720,7 +841,7 @@ header {
   color: #f5fdc8;
 }
 
-/* line 303, ../sass/partials/_page.scss */
+/* line 333, ../sass/partials/_page.scss */
 .fixedBox {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -729,14 +850,13 @@ header {
   -ms-box-sizing: border-box;
 }
 
-/* line 307, ../sass/partials/_page.scss */
+/* line 337, ../sass/partials/_page.scss */
 footer {
   position: relative;
-  margin-top: 0.382em;
   min-height: 6.854em;
   width: 100%;
   background-color: #364002;
-  border-radius: 0.618em 0.618em 0 0;
+  color: #a0b23c;
 }
 
 /* line 7, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
@@ -800,11 +920,84 @@ footer {
   *zoom: 1;
 }
 
-@media only screen and (min-width: 480px) {
-  /* Style adjustments for viewports 480px and over go here */
-}
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
+  /* line 11, ../sass/partials/_media.scss */
+  #container {
+    width: 96%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  /* line 17, ../sass/partials/_media.scss */
+  #front-quote {
+    display: none;
+  }
+
+  /* line 21, ../sass/partials/_media.scss */
+  #hero_image h1 {
+    font-size: 2.618em;
+  }
+
+  /* line 25, ../sass/partials/_media.scss */
+  #imageQuote {
+    width: 36%;
+  }
+
+  /* line 29, ../sass/partials/_media.scss */
+  #mainLeft {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 1.618em 1.618em;
+    border-right: 1px dotted #b4c655;
+  }
+  /* line 35, ../sass/partials/_media.scss */
+  #mainLeft p:nth-child(2) {
+    text-indent: 1.618em;
+  }
+  /* line 38, ../sass/partials/_media.scss */
+  #mainLeft h2 {
+    margin-top: 0.618em;
+    font-family: "DroidSerifRegular", Times, serif;
+    font-size: 2.618em;
+    color: #657026;
+  }
+
+  /* line 47, ../sass/partials/_media.scss */
+  #mainRight {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 1.618em 1.618em;
+    color: #464e1a;
+  }
+  /* line 53, ../sass/partials/_media.scss */
+  #mainRight p, #mainRight ul, #mainRight ol {
+    font-size: 0.86em;
+  }
+  /* line 56, ../sass/partials/_media.scss */
+  #mainRight h3 {
+    font-family: "DroidSerifRegular", Times, serif;
+    font-size: 1.618em;
+    color: #5a6422;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* Style adjustments for viewports 480px and over go here */
+  /* line 67, ../sass/partials/_media.scss */
+  #container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  /* line 72, ../sass/partials/_media.scss */
+  #imageQuote {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
 }
 @media print {
   /* line 11, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */

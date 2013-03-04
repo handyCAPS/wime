@@ -4,16 +4,78 @@
 // Modify as content requires.
 // ========================================================================== */
 
-@media only screen and (min-width: 480px) {
-  /* Style adjustments for viewports 480px and over go here */
 
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
 
+  #container {
+	width: 96%;
+	position: relative;
+	margin: 0 auto;
 }
 
+#front-quote {
+	display: none;
+}  
+
+#hero_image h1 {
+	font-size: $step3-gold-em;
+}
+
+#imageQuote {
+	width: 36%;
+}
+
+#mainLeft {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0 $step2-gold-em $step2-gold-em;
+	border-right: 1px dotted lighten($middleGreen, 32);
+		p:nth-child(2) {
+			text-indent: $step2-gold-em;
+		}
+		h2 {
+			margin-top: $step-1-gold-em;
+			font-family: $header-font;
+			font-size: $step3-gold-em;
+			color: lighten($middleGreen, 6);
+		}
+
+}
+
+#mainRight {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0 $step2-gold-em $step2-gold-em;
+	color: darken($middleGreen, 3);
+		p, ul, ol {
+			font-size: 0.86*($step1-gold-em);
+		}
+		h3 {
+			font-family: $header-font;
+			font-size: $step2-gold-em;
+			color: lighten($middleGreen, 3);
+		}
+}
+}
+
+@media only screen and (max-width: 600px) {
+  /* Style adjustments for viewports 480px and over go here */
+
+  #container {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+ }
+ #imageQuote {
+	width: 100%;
+	float: left;
+	text-align: left;
+ }
+
+}
 
 
 // ==|== print styles =======================================================
