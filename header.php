@@ -21,7 +21,7 @@
           }
        ?>
     </title>
-    <meta content='' name='description' />
+    <meta content='<?php bloginfo('description'); ?>' name='description' />
     <meta content='ICT-Lab | Tim Doppenberg' name='author' />
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     <link href='<?php echo VLUCHTPAD; ?>/css/style.css' rel='stylesheet' />

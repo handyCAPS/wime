@@ -16,6 +16,22 @@
 	// Hook into the 'init' action
 	add_action( 'init', 'wime_menus' );
 
+	function wime_sidebars() {
+		$args = array(
+			'name'          => __( 'Sidebar', 'theme_text_domain' ),
+			'id'            => 'sidebar1',
+			'description'   => 'De sidebar',
+			'class'         => '',
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2 class="widgettitle">',
+			'after_title'   => '</h2>'
+			);
+		register_sidebar( $args );
+	}
+
+	add_action('widgets_init', 'wime_sidebars');
+
 	// Enable thumbnails
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size(200, 200, true); // Normal post thumbnails
