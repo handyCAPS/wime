@@ -1,5 +1,5 @@
 
-<?php get_header(); ?>
+<?php get_header('page'); ?>
 
 <div id='mainWrapper' class='fixedBox'>
                 <div id='mainLeft' class='fixedBox'>

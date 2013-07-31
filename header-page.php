@@ -30,12 +30,7 @@
   <body <?php body_class(); ?> >
     <div id='container'>
         <header>
-          <div id='logo'>
-             <div id='front-quote'>
-              <h2 class='quote'>Een druppel inkt kan miljoenen aan het denken zetten.<br><div id='erkenning'>- Lord George Byron</div></h2>
-            </div>
-            <a href="<?php bloginfo('home'); ?>"><img id='logoImage' src="<?php echo VLUCHTPAD; ?>/images/logo_384x188.png"></a>
-          </div>
+          
           <div id='shadowWrapper'>
             <nav id='mainNav'>
              <?php wp_nav_menu( array(
@@ -59,8 +54,7 @@
   
             <div id='hero_image'>
               <div id='imageQuote'>
-                <h1 class='quote'>
-                <?php 
+                <h1 class='quote'><?php 
                   $quote_pool = array(
                       'Logica brengt je van A naar B. Verbeelding brengt je overal. <br><span id="imageErkenning">- Albert Einstein</span>',
                       'Als je troebel water met rust laat, wordt het vanzelf helder. <br><span id="imageErkenning">- Lao-Tse</span>',
@@ -71,13 +65,17 @@
                       'Te weten dat je onwetend bent is het begin van alle wijsheid. <br><span id="imageErkenning">- Viviane van Avelon</span>',
                       'Geluk hangt af van wat men kan geven, niet van wat men kan krijgen. <br><span id="imageErkenning">- Mahatma Gandhi</span>',
                       'Schildpadden kunnen meer over de weg vertellen dan hazen. <br><span id="imageErkenning">- Kahlil Gibran</span>',
-                      'Boeken hebben, net als mensen, hun succes vaak aan hun titel te danken.<br><span id="imageErkenning">- Peter Sirius</span>'
+                      'Boeken hebben, net als mensen, hun succes vaak aan hun titel te danken.<br><span id="imageErkenning">- Peter Sirius</span>',
+                      'Wie rijk wil zijn, moet niet zijn vermogen vermeerderen maar zijn hebzucht verminderen.<br><span id="imageErkenning">- Plato</span>',
+                      'Geef me werk wat bij me past en ik hoef nooit meer te werken.<br><span id="imageErkenning">- Confucius</span>',
+                      'Een overdrijving is een waarheid die haar geduld heeft verloren.<br><span id="imageErkenning">- Kahlil Gibran</span>',
+                      'De eerste eigenschap van stijl is helderheid.<br><span id="imageErkenning">- Aristoteles</span>',
+                      'De ervaring doet onze wijsheid toenemen maar niet onze dwaasheden afnemen.<br><span id="imageErkenning">- Josh Billings</span>'
                     );
                   $zoek = floor(mt_rand(0, count($quote_pool)-1));
                   $front_quote = $quote_pool[$zoek];
                   echo $front_quote;
-                 ?>
-                </h1>
+                 ?></h1>
               </div><!--  end imageQuote  -->
             </div><!--  end hero_image  -->
             </div><!--  end shadowWrapper  -->

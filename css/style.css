@@ -1,4 +1,4 @@
-/* line 32, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 32, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 article,
 aside,
 details,
@@ -13,7 +13,7 @@ summary {
   display: block;
 }
 
-/* line 39, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 39, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 audio,
 canvas,
 video {
@@ -22,25 +22,25 @@ video {
   *zoom: 1;
 }
 
-/* line 47, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 47, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 55, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 55, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 69, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 69, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 82, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 82, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 html,
 button,
 input,
@@ -49,92 +49,92 @@ textarea {
   font-family: sans-serif;
 }
 
-/* line 88, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 88, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 103, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 103, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 109, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 109, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 122, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 122, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 127, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 127, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 132, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 132, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 137, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 137, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 142, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 142, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 147, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 147, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
 }
 
-/* line 153, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 153, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 159, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 159, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 163, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 163, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
 
-/* line 168, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 168, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 173, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 173, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 180, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 180, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
 }
 
-/* line 188, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 188, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 code,
 kbd,
 pre,
@@ -144,31 +144,31 @@ samp {
   font-size: 1em;
 }
 
-/* line 195, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 195, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 202, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 202, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 q {
   quotes: none;
 }
 
-/* line 208, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 208, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 214, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 214, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 220, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 220, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -177,17 +177,17 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 227, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 227, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 231, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 231, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 245, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 245, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dl,
 menu,
 ol,
@@ -195,19 +195,19 @@ ul {
   margin: 1em 0;
 }
 
-/* line 249, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 249, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 256, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 256, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-/* line 268, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 268, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -215,29 +215,29 @@ img {
   /* 2 */
 }
 
-/* line 274, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 274, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 285, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 285, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 296, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 296, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 form {
   margin: 0;
 }
 
-/* line 301, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 301, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 310, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 310, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
@@ -245,7 +245,7 @@ legend {
   *margin-left: -7px;
 }
 
-/* line 323, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 323, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input,
 select,
 textarea {
@@ -255,13 +255,13 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 333, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 333, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 347, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 347, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -271,13 +271,13 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 355, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 355, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 364, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 364, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -286,7 +286,7 @@ input[type="radio"] {
   *width: 13px;
 }
 
-/* line 374, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 374, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -294,26 +294,26 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 384, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 384, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 390, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 390, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 397, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 397, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 409, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 409, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -374,59 +374,96 @@ body, select, input, textarea {
 }
 
 /* line 36, ../sass/partials/_page.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #50591e;
+}
+
+/* line 40, ../sass/partials/_page.scss */
 h1 {
   padding: 0;
   margin: 0;
 }
 
-/* line 41, ../sass/partials/_page.scss */
+/* line 45, ../sass/partials/_page.scss */
+h1 {
+  font-size: 2.618em;
+}
+
+/* line 49, ../sass/partials/_page.scss */
+h2 {
+  font-size: 1.618em;
+}
+
+/* line 53, ../sass/partials/_page.scss */
+h3 {
+  font-size: 1em;
+}
+
+/* line 57, ../sass/partials/_page.scss */
+h4 {
+  font-size: 0.618em;
+}
+
+/* line 61, ../sass/partials/_page.scss */
+h5 {
+  font-size: 0.382em;
+}
+
+/* line 65, ../sass/partials/_page.scss */
+h6 {
+  font-size: 0.236em;
+}
+
+/* line 69, ../sass/partials/_page.scss */
 a {
   text-decoration: none;
   color: #859e05;
+  -moz-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.2s;
 }
-/* line 44, ../sass/partials/_page.scss */
+/* line 74, ../sass/partials/_page.scss */
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #798f04;
 }
-/* line 48, ../sass/partials/_page.scss */
+/* line 78, ../sass/partials/_page.scss */
 a:visited {
   text-decoration: none;
   color: #657026;
 }
 
-/* line 54, ../sass/partials/_page.scss */
+/* line 84, ../sass/partials/_page.scss */
 p > a:visited {
   text-decoration: none;
   color: #859e05;
 }
 
-/* line 59, ../sass/partials/_page.scss */
+/* line 89, ../sass/partials/_page.scss */
 a:focus {
   outline: 0;
 }
 
-/* line 63, ../sass/partials/_page.scss */
+/* line 93, ../sass/partials/_page.scss */
 ul {
   list-style-image: url("../images/check.png");
 }
 
-/* line 67, ../sass/partials/_page.scss */
+/* line 97, ../sass/partials/_page.scss */
 ul ul {
   list-style: disc;
 }
 
-/* line 71, ../sass/partials/_page.scss */
+/* line 101, ../sass/partials/_page.scss */
 ol ol {
   list-style-type: circle;
 }
 
-/* line 75, ../sass/partials/_page.scss */
+/* line 105, ../sass/partials/_page.scss */
 table {
   margin: 0 auto;
 }
 
-/* line 79, ../sass/partials/_page.scss */
+/* line 109, ../sass/partials/_page.scss */
 td {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -438,7 +475,7 @@ td {
   font-size: 0.9em;
 }
 
-/* line 86, ../sass/partials/_page.scss */
+/* line 116, ../sass/partials/_page.scss */
 th {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -450,7 +487,7 @@ th {
   padding: 0 1em;
 }
 
-/* line 93, ../sass/partials/_page.scss */
+/* line 123, ../sass/partials/_page.scss */
 thead th {
   border: none;
   text-transform: lowercase;
@@ -460,7 +497,7 @@ thead th {
   padding-bottom: 0.618em;
 }
 
-/* line 103, ../sass/partials/_page.scss */
+/* line 133, ../sass/partials/_page.scss */
 button {
   -webkit-border-radius: 0.618em;
   -moz-border-radius: 0.618em;
@@ -503,20 +540,31 @@ button:hover {
   color: #c1cf71;
 }
 
-/* line 107, ../sass/partials/_page.scss */
+/* line 138, ../sass/partials/_page.scss */
+blockquote p:before {
+  content: open-quote;
+  padding-right: 0.308em;
+}
+/* line 142, ../sass/partials/_page.scss */
+blockquote p:after {
+  content: close-quote;
+  padding-left: 0.308em;
+}
+
+/* line 148, ../sass/partials/_page.scss */
 fieldset {
   border: 1px solid #50591e;
   background-color: #dce4b0;
 }
 
-/* line 112, ../sass/partials/_page.scss */
+/* line 153, ../sass/partials/_page.scss */
 label {
   display: inline-block;
   min-width: 11.089em;
   border-bottom: 1px dotted #364002;
 }
 
-/* line 118, ../sass/partials/_page.scss */
+/* line 159, ../sass/partials/_page.scss */
 input[type="text"], textarea {
   color: #1d2201;
   margin: 1em 0;
@@ -525,7 +573,7 @@ input[type="text"], textarea {
   padding: 0 0.236em;
 }
 
-/* line 126, ../sass/partials/_page.scss */
+/* line 167, ../sass/partials/_page.scss */
 textarea {
   background: #eef2d9;
   /* Old browsers */
@@ -543,7 +591,7 @@ textarea {
   /* W3C */
 }
 
-/* line 130, ../sass/partials/_page.scss */
+/* line 171, ../sass/partials/_page.scss */
 input[type="submit"], input[type="reset"] {
   -webkit-border-radius: 0.618em;
   -moz-border-radius: 0.618em;
@@ -588,7 +636,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
   color: #c1cf71;
 }
 
-/* line 136, ../sass/partials/_page.scss */
+/* line 177, ../sass/partials/_page.scss */
 body {
   width: 100%;
   position: relative;
@@ -598,26 +646,26 @@ body {
   color: #1d2201;
 }
 
-/* line 145, ../sass/partials/_page.scss */
+/* line 187, ../sass/partials/_page.scss */
 #container {
   width: 76%;
   position: relative;
   margin: 0 auto;
 }
 
-/* line 151, ../sass/partials/_page.scss */
+/* line 193, ../sass/partials/_page.scss */
 #shadowWrapper {
   -webkit-box-shadow: #3b4216 2px 2px 0.618em;
   -moz-box-shadow: #3b4216 2px 2px 0.618em;
   box-shadow: #3b4216 2px 2px 0.618em;
 }
 
-/* line 155, ../sass/partials/_page.scss */
+/* line 197, ../sass/partials/_page.scss */
 header {
   margin: 0 auto;
 }
 
-/* line 159, ../sass/partials/_page.scss */
+/* line 201, ../sass/partials/_page.scss */
 #mainNav {
   position: relative;
   background: #50591e;
@@ -638,21 +686,22 @@ header {
   *zoom: 1;
   color: #a0b23c;
   padding: 0;
+  margin: 0;
 }
-/* line 165, ../sass/partials/_page.scss */
+/* line 208, ../sass/partials/_page.scss */
 #mainNav ul {
-  margin-left: -1.618em;
+  padding: 0;
 }
-/* line 168, ../sass/partials/_page.scss */
-#mainNav li {
+/* line 210, ../sass/partials/_page.scss */
+#mainNav ul li {
   float: left;
   list-style: none;
-  padding: 0 2.618em 0.618em 0;
+  padding: 0.618em 1em;
   margin: 0;
-  line-height: 1;
+  margin-top: -1em;
 }
-/* line 174, ../sass/partials/_page.scss */
-#mainNav li a {
+/* line 216, ../sass/partials/_page.scss */
+#mainNav ul li a {
   transition: all 0.5s linear 0.3s;
   -moz-transition: all 0.5s linear 0.3s;
   -o-transition: all 0.5s linear 0.3s;
@@ -660,66 +709,64 @@ header {
   -ms-transition: all 0.5s linear 0.3s;
   text-shadow: 0 0 0 black;
   font-family: "DroidSerifRegular", Times, serif;
-  font-size: 1.35em;
+  font-size: 1.112em;
   text-decoration: none;
   color: #a0b23c;
-  vertical-align: baseline;
 }
-/* line 182, ../sass/partials/_page.scss */
-#mainNav li a:hover {
-  text-shadow: 0.3px 0 2px #bcde07;
+/* line 223, ../sass/partials/_page.scss */
+#mainNav ul li a:hover {
   color: #ced98f;
 }
+/* line 229, ../sass/partials/_page.scss */
+#mainNav li ul {
+  display: none;
+}
 
-/* line 190, ../sass/partials/_page.scss */
+/* line 234, ../sass/partials/_page.scss */
 #logo {
   overflow: hidden;
   *zoom: 1;
   position: relative;
 }
-/* line 193, ../sass/partials/_page.scss */
+/* line 237, ../sass/partials/_page.scss */
 #logo #logoImage {
-  -webkit-box-shadow: black 0.236em 0.236em 0.236em;
-  -moz-box-shadow: black 0.236em 0.236em 0.236em;
-  box-shadow: black 0.236em 0.236em 0.236em;
   float: right;
   width: 28%;
   min-width: 17.942em;
   padding: 1em 2.618em 0 0;
 }
-/* line 200, ../sass/partials/_page.scss */
+/* line 243, ../sass/partials/_page.scss */
 #logo #front-quote {
   float: left;
   width: 56%;
   margin: -2.618em 0;
   line-height: 0.8;
 }
-/* line 205, ../sass/partials/_page.scss */
+/* line 248, ../sass/partials/_page.scss */
 #logo #front-quote h2 {
   font-family: "LoversQuarrelRegular", serif;
   font-size: 4.236em;
-  color: #50591e;
-  opacity: 0.5;
+  color: #6a644e;
 }
-/* line 211, ../sass/partials/_page.scss */
+/* line 253, ../sass/partials/_page.scss */
 #logo #front-quote #erkenning {
   padding-left: 1.618em;
   text-align: right;
   display: inline-block;
 }
 
-/* line 219, ../sass/partials/_page.scss */
+/* line 261, ../sass/partials/_page.scss */
 #front-quote {
   float: left;
 }
 
-/* line 223, ../sass/partials/_page.scss */
+/* line 265, ../sass/partials/_page.scss */
 #main {
   padding: 0;
   margin: 0;
 }
 
-/* line 228, ../sass/partials/_page.scss */
+/* line 270, ../sass/partials/_page.scss */
 #mainWrapper {
   -webkit-box-shadow: #3b4216 2px 2px 0.618em;
   -moz-box-shadow: #3b4216 2px 2px 0.618em;
@@ -735,7 +782,7 @@ header {
   border-bottom: 1px solid #50591e;
 }
 
-/* line 241, ../sass/partials/_page.scss */
+/* line 283, ../sass/partials/_page.scss */
 #mainLeft {
   -webkit-box-shadow: #50591e 2px 0 7px;
   -moz-box-shadow: #50591e 2px 0 7px;
@@ -747,19 +794,38 @@ header {
   padding: 0 1.618em 1.618em;
   border-right: 1px dotted #b4c655;
 }
-/* line 249, ../sass/partials/_page.scss */
-#mainLeft p:nth-child(2) {
+/* line 291, ../sass/partials/_page.scss */
+#mainLeft p {
+  line-height: 1.34;
+}
+/* line 294, ../sass/partials/_page.scss */
+#mainLeft p:nth-of-type(1) {
   text-indent: 1.618em;
 }
-/* line 252, ../sass/partials/_page.scss */
-#mainLeft h2 {
-  margin-top: 0.618em;
+/* line 297, ../sass/partials/_page.scss */
+#mainLeft h1 {
+  margin: 0.618em 0.236em 0.618em -3px;
   font-family: "DroidSerifRegular", Times, serif;
-  font-size: 2.618em;
   color: #657026;
 }
+/* line 304, ../sass/partials/_page.scss */
+#mainLeft img.alignleft {
+  margin: 0 1.618em 0.618em 0;
+}
+/* line 307, ../sass/partials/_page.scss */
+#mainLeft img.alignright {
+  margin: 0 0 1.618em 0.618em;
+}
+/* line 310, ../sass/partials/_page.scss */
+#mainLeft img[align="left"] {
+  margin: 0 1.618em 0.618em 0;
+}
+/* line 313, ../sass/partials/_page.scss */
+#mainLeft img[align="right"] {
+  margin: 0 0 1.618em 0.618em;
+}
 
-/* line 261, ../sass/partials/_page.scss */
+/* line 320, ../sass/partials/_page.scss */
 #mainRight {
   position: relative;
   float: left;
@@ -767,18 +833,18 @@ header {
   padding: 0 1.618em 1.618em;
   color: #464e1a;
 }
-/* line 267, ../sass/partials/_page.scss */
+/* line 326, ../sass/partials/_page.scss */
 #mainRight p, #mainRight ul, #mainRight ol {
   font-size: 0.86em;
 }
-/* line 270, ../sass/partials/_page.scss */
+/* line 329, ../sass/partials/_page.scss */
 #mainRight h3 {
   font-family: "DroidSerifRegular", Times, serif;
   font-size: 1.618em;
   color: #5a6422;
 }
 
-/* line 277, ../sass/partials/_page.scss */
+/* line 336, ../sass/partials/_page.scss */
 .divider {
   position: relative;
   left: -1.618em;
@@ -787,28 +853,28 @@ header {
   background-color: #364002;
   color: #c1cf71;
 }
-/* line 284, ../sass/partials/_page.scss */
+/* line 343, ../sass/partials/_page.scss */
 .divider h4 {
   margin: 0;
   padding: 0;
 }
 
-/* line 291, ../sass/partials/_page.scss */
+/* line 350, ../sass/partials/_page.scss */
 #linkTest {
   text-align: center;
 }
 
-/* line 295, ../sass/partials/_page.scss */
+/* line 354, ../sass/partials/_page.scss */
 #tableWrapper {
   width: 100%;
 }
 
-/* line 299, ../sass/partials/_page.scss */
+/* line 358, ../sass/partials/_page.scss */
 .imageFit {
   width: 100%;
 }
 
-/* line 303, ../sass/partials/_page.scss */
+/* line 362, ../sass/partials/_page.scss */
 #imageQuote {
   float: right;
   width: 62%;
@@ -816,7 +882,7 @@ header {
   opacity: 0.36;
 }
 
-/* line 310, ../sass/partials/_page.scss */
+/* line 369, ../sass/partials/_page.scss */
 #hero_image {
   width: 100%;
   height: 17.942em;
@@ -824,7 +890,7 @@ header {
   background-size: cover;
   line-height: 1;
 }
-/* line 316, ../sass/partials/_page.scss */
+/* line 375, ../sass/partials/_page.scss */
 #hero_image h1 {
   text-shadow: 0 0 6px #293102;
   padding: 0.236em 0.618em;
@@ -833,7 +899,7 @@ header {
   color: #edfca1;
 }
 
-/* line 326, ../sass/partials/_page.scss */
+/* line 385, ../sass/partials/_page.scss */
 #imageErkenning {
   display: inline-block;
   position: relative;
@@ -841,7 +907,7 @@ header {
   color: #f5fdc8;
 }
 
-/* line 333, ../sass/partials/_page.scss */
+/* line 392, ../sass/partials/_page.scss */
 .fixedBox {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -850,7 +916,7 @@ header {
   -ms-box-sizing: border-box;
 }
 
-/* line 337, ../sass/partials/_page.scss */
+/* line 396, ../sass/partials/_page.scss */
 footer {
   position: relative;
   min-height: 6.854em;
@@ -859,14 +925,14 @@ footer {
   color: #a0b23c;
 }
 
-/* line 7, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 7, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
   *text-indent: -9999px;
 }
-/* line 27, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 27, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .ir:before {
   content: "";
   display: block;
@@ -874,13 +940,13 @@ footer {
   height: 100%;
 }
 
-/* line 9, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 9, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 11, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 11, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -891,7 +957,7 @@ footer {
   position: absolute;
   width: 1px;
 }
-/* line 67, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 67, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -901,21 +967,21 @@ footer {
   width: auto;
 }
 
-/* line 13, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 13, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 93, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 93, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 98, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 98, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .clearfix:after {
   clear: both;
 }
-/* line 104, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
+/* line 104, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_helpers.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -1000,7 +1066,7 @@ footer {
   }
 }
 @media print {
-  /* line 11, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 11, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1008,48 +1074,48 @@ footer {
     text-shadow: none !important;
   }
 
-  /* line 19, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 19, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 23, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 23, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 27, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 27, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 37, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 37, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 42, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 42, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 47, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 47, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 52, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 52, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 56, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 56, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   img {
     max-width: 100% !important;
   }
@@ -1058,7 +1124,7 @@ footer {
     margin: 0.5cm;
 }
 
-  /* line 66, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 66, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   p,
   h2,
   h3 {
@@ -1066,7 +1132,7 @@ footer {
     widows: 3;
   }
 
-  /* line 72, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
+  /* line 72, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
   h2,
   h3 {
     page-break-after: avoid;

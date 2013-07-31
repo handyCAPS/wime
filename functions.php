@@ -24,8 +24,8 @@
 			'class'         => '',
 			'before_widget' => '<div>',
 			'after_widget'  => '</div>',
-			'before_title'  => '<h2 class="widgettitle">',
-			'after_title'   => '</h2>'
+			'before_title'  => '<h3 class="widgettitle">',
+			'after_title'   => '</h3>'
 			);
 		register_sidebar( $args );
 	}

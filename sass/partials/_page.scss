@@ -33,16 +33,46 @@ $script-font: 'LoversQuarrelRegular', serif;
 // Add your own custom styles below
 //-----------------------------------
 
+h1,h2,h3,h4,h5,h6 {
+	color: $middleGreen;
+}
+
 h1 {
 	padding: 0;
 	margin: 0;
 }
 
+h1 {
+	font-size: $step3-gold-em;
+}
+
+h2 {
+	font-size: $step2-gold-em;
+}
+
+h3 {
+	font-size: $step1-gold-em;
+}
+
+h4 {
+	font-size: $step-1-gold-em;
+}
+
+h5 {
+	font-size: $step-2-gold-em;
+}
+
+h6 {
+	font-size: $step-3-gold-em;
+}
+
 a {
 	text-decoration: none;
 	color: lighten($darkGreen, 19);
+	-moz-transition: all 0.3s ease 0.2s;
+	transition: all 0.3s ease 0.2s;
 		&:hover {
-			text-decoration: underline;
+			text-decoration: none;
 			color: lighten($darkGreen, 16);
 		}
 		&:visited {
@@ -104,6 +134,17 @@ button {
 	@include buttonStyle;
 }
 
+blockquote p {
+		&:before {
+			content: open-quote;
+			padding-right: 0.308em;
+		}
+		&:after {
+			content: close-quote;
+			padding-left: 0.308em;
+		}
+}
+
 fieldset {
 	border: 1px solid $middleGreen;
 	background-color: lighten($middleGreen, 56);
@@ -140,6 +181,7 @@ body {
 	padding: 0;
 	background-color: #f9fbf2;
 	color: darken($darkGreen, 6);
+	// background-image: url('../images/vintage_speckles.png');
 }
 
 #container {
@@ -162,36 +204,37 @@ header {
 	@include clearfix;
 	color: $lightGreen;
 	padding: 0;
+	margin: 0;
 		ul {
-			margin-left: -($step2-gold-em);
+			padding: 0;
+			li {
+				float: left;
+				list-style: none;
+				padding: $step-1-gold-em $step1-gold-em;
+				margin: 0;
+				margin-top: -1em;
+					a { 
+						@include multi-transition();
+						@include textShadow();
+						font-family: $header-font;
+						font-size: 1.112em;
+						text-decoration: none;		
+						color: $lightGreen;
+							&:hover {
+								color: lighten($lightGreen, 24);
+							}
+					}
+			}
 		}
-		li {
-			float: left;
-			list-style: none;
-			padding: 0 $step3-gold-em $step-1-gold-em 0;
-			margin: 0;
-			line-height: 1;
-				a { 
-					@include multi-transition();
-					@include textShadow();
-					font-family: $header-font;
-					font-size: 1.35*($step1-gold-em);
-					text-decoration: none;		
-					color: $lightGreen;
-					vertical-align: baseline;
-						&:hover {
-							@include textShadow(0.3px, 0, 2px, lighten($darkGreen, 32));
-							color: lighten($lightGreen, 24);
-						}
-				}
-		}
+		li ul {
+			display: none;
+		}	
 }
 
 #logo {
 	@include clearfix;
 	position: relative;
 		#logoImage {
-			@include box-shadow(darken($middleGreen, 28) $step-3-gold-em $step-3-gold-em $step-3-gold-em);
 			float: right;
 			width: 28%;
 			min-width: $step7-gold-em;
@@ -205,8 +248,7 @@ header {
 				h2 {
 					font-family: $script-font;
 					font-size: $step4-gold-em;
-					color: $middleGreen;
-					opacity: 0.5;
+					color: hsl(47, 15%, 36%);
 				}
 		#erkenning {
 			padding-left: $step2-gold-em;
@@ -246,14 +288,31 @@ header {
 	width: 68%;
 	padding: 0 $step2-gold-em $step2-gold-em;
 	border-right: 1px dotted lighten($middleGreen, 32);
-		p:nth-child(2) {
+		p {
+			line-height: 1.34;
+		}
+		p:nth-of-type(1) {
 			text-indent: $step2-gold-em;
 		}
-		h2 {
-			margin-top: $step-1-gold-em;
+		h1 {
+			margin: $step-1-gold-em $step-3-gold-em $step-1-gold-em -3px;
 			font-family: $header-font;
-			font-size: $step3-gold-em;
+			// font-size: $step3-gold-em;
 			color: lighten($middleGreen, 6);
+		}
+		img {
+				&.alignleft {
+					margin: 0 $step2-gold-em $step-1-gold-em 0;
+				}
+				&.alignright {
+					margin: 0  0 $step2-gold-em $step-1-gold-em;
+				}
+				&[align="left"] {
+					margin: 0 $step2-gold-em $step-1-gold-em 0;
+				}
+				&[align="right"] {
+					margin: 0  0 $step2-gold-em $step-1-gold-em;
+				}
 		}
 
 }
