@@ -1,0 +1,1027 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"qu",
+				"qula_quotes_pool"
+			],
+			[
+				"Q",
+				"QuoteLab"
+			],
+			[
+				"addsett",
+				"add_settings_field"
+			],
+			[
+				"qula_",
+				"qula_options_group"
+			],
+			[
+				"ste",
+				"step-1-gold-em"
+			],
+			[
+				"wpt",
+				"wp_title"
+			],
+			[
+				"getstyur",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"midd",
+				"middleColorSat"
+			],
+			[
+				"listst",
+				"list-style"
+			],
+			[
+				"Win",
+				"WinRestore"
+			],
+			[
+				"post",
+				"post_name"
+			],
+			[
+				"spoor",
+				"spoorxi_scripts"
+			],
+			[
+				"wpenqsc",
+				"wp_enqueue_scripts"
+			],
+			[
+				"spooi",
+				"spoorinit"
+			],
+			[
+				"localsc",
+				"localscroll"
+			],
+			[
+				"jq",
+				"jqueryui"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"wpenq",
+				"wp_enqueue_style"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"getsty",
+				"get_stylesheet_directory"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"found",
+				"foundation_orbit"
+			],
+			[
+				"plu",
+				"plugins_url"
+			],
+			[
+				"enque",
+				"wp_enqueue_script"
+			],
+			[
+				"founda",
+				"foundation_core"
+			],
+			[
+				"Plugin",
+				"plugin_basename"
+			],
+			[
+				"register_si",
+				"register_sidebar"
+			],
+			[
+				"reve",
+				"revealWrapIct"
+			],
+			[
+				"reveal",
+				"revealWrapAds"
+			],
+			[
+				"re",
+				"revealWrap1"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"gethead",
+				"get_header"
+			],
+			[
+				"floa",
+				"float"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"user",
+				"user_email"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"fbur",
+				"facebook_url"
+			],
+			[
+				"fa",
+				"facebook_name"
+			],
+			[
+				"fac",
+				"facebook_url"
+			],
+			[
+				"faceboo",
+				"facebook_name"
+			],
+			[
+				"fb",
+				"fb_pos"
+			],
+			[
+				"tw",
+				"twitpos"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"st",
+				"step5-gold-em"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"funct",
+				"function_exists"
+			],
+			[
+				"main",
+				"main-blue"
+			],
+			[
+				"lig",
+				"lightGreen"
+			],
+			[
+				"s",
+				"step-5-gold-em"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"dar",
+				"darkGreen"
+			],
+			[
+				"da",
+				"darken"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"heade",
+				"header-font"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"step",
+				"step7-gold-em"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"scal",
+				"scaleBase3"
+			],
+			[
+				"scale",
+				"scaleBase1"
+			],
+			[
+				"mod",
+				"modScale"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/sass/partials/_page.scss",
+			"settings":
+			{
+				"buffer_size": 7021,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/page.php",
+			"settings":
+			{
+				"buffer_size": 950,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/header-page.php",
+			"settings":
+			{
+				"buffer_size": 4818,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/single.php",
+			"settings":
+			{
+				"buffer_size": 950,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/index.php",
+			"settings":
+			{
+				"buffer_size": 944,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/header.php",
+			"settings":
+			{
+				"buffer_size": 4501,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/plugins/quote-lab/index.php",
+			"settings":
+			{
+				"buffer_size": 1621,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/sass/partials/_base.scss",
+			"settings":
+			{
+				"buffer_size": 9700,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"f",
+				"Fetch: File"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"snlo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"loi",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sni",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"prfx",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"ips",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snjdoc",
+				"Snippet: jdocinclude-modules"
+			],
+			[
+				"sn",
+				"Snippet: jdocinclude-message"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jheader"
+			],
+			[
+				"pia",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: tags",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 699.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/wordpress2/wp-config.php",
+		"/C/wamp/www/wordpress2/wp-content/themes/witteMerel/quote-lab/index.php",
+		"/C/wamp/www/wordpress2/wp-content/themes/witteMerel/functions.php",
+		"/C/wamp/www/wordpress2/wp-content/themes/witteMerel/header.php",
+		"/C/wamp/www/wordpress2/wp-content/themes/witteMerel/index.php",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 3/Packages/User/wordpress_title.sublime-snippet",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/header.php",
+		"/C/Users/Tim/SiteMap2/witte-merel/config.rb",
+		"/C/Users/Tim/SiteMap2/witte-merel/sass/partials/_base.scss",
+		"/C/Users/Tim/SiteMap2/witte-merel/sass/partials/_fonts.scss",
+		"/C/Users/Tim/SiteMap2/witte-merel/sass/partials/_media.scss",
+		"/C/Users/Tim/SiteMap2/witte-merel/index.html.haml",
+		"/C/AutoHotKeyScripts/key_mapping.ahk",
+		"/C/AutoHotKeyScripts/folders.ahk",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/allNew/config.rb",
+		"/C/AutoHotKeyScripts/test.ahk",
+		"/C/Users/Tim/SiteMap2/DeWitteMerel/index.html",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/functions.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/js/jquery.sticky-sidebar.js",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/js/spoorInit.js",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/page.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/deelnemers.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/page-with-slider.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/page-zorgverleners.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/page-with-map.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/page-home.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/header-maps.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/spoorXI/sidebar-page.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/spoorXI/sidebar.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/spoorXI/page.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/spoorXI/header.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/spoorXI/index.php",
+		"/C/wamp/www/wordpress/wp-content/themes/spoorXIb/spoorXI/functions.php",
+		"/C/users/tim/appdata/local/temp/sublime-sftp-browse-1371667892/ictlab/domains/ictlab.info/htdocs/sporenonderzoek/wp-content/themes/spoorXI/stylesheets/screen.css",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/ictlab",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/stylesheets/screen.css",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/spoorXI/footer.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/spoorXI/page.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/stylesheets/print.css",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/spoorXI/sidebar-frontpage.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/index.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/functions.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/wp-config.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/jquery.ui.js",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/localScroll.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/.gitignore",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/charset.sublime-snippet",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/jquery.min.js",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/js/html5shiv.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/if_ie.sublime-snippet",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/functions.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/normalize.css",
+		"/C/Users/Tim/SiteMap2/Wordpress 3.5.1 nl/wp-content/themes/twentytwelve/style.css",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/wordpress_css_start.sublime-snippet",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/style.css",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/header.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/index.php",
+		"/C/Users/Tim/SiteMap2/spoorloos_rebuild/inde.php",
+		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js/orbit-int.js",
+		"/C/wamp/www/wordpress/wp-content/plugins/zorbit-slider/js.orbit-init.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/WordpressDev/WordPressDev.sublime-settings",
+		"/C/wamp/www/wordpress/wp-content/languages/admin-network-nl_NL.mo",
+		"/C/Users/Tim/SiteMap2/ict-lab/sidebar-orbit.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/orbit-page.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/functions.php",
+		"/C/Users/Tim/SiteMap2/teff/twentytwelve/footer.php",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/footer.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/orbit-sidebar.php",
+		"/C/Users/Tim/SiteMap2/ict-lab/pp.php",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/SiteMap2/ict-lab/index.html",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/Tim/SiteMap2/ict-lab/css/main.css",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/js/jquey.pin.min.js",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXII/style.css",
+		"/C/Users/Tim/SiteMap2/compass/config.rb",
+		"/C/Users/Tim/SiteMap2/_jQuery plugins/jquery.localscroll-1.2.7-min.js.txt",
+		"/C/Users/Tim/SiteMap2/_jQuery plugins/jquery.scrollTo-1.4.3.1-min.js.txt",
+		"/C/Users/Tim/SiteMap2/spoor11/spoorXI/js/scrollTo.js",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/header.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/footer.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/sidebar.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/sidebar-page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/page.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/index.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/functions.php",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/index.html",
+		"/C/Users/Tim/SiteMap2/_themes_wordpress/Bones/page.php",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/SiteMap2/spoor11/wp/style.css",
+		"/C/Users/Tim/SiteMap2/spoor11/style.css",
+		"/C/Users/Tim/SiteMap2/spoor11/.gitignore",
+		"/C/Users/Tim/SiteMap2/spoor11/index.html",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/SiteMap2/spoor11/foundation/index.html",
+		"/C/Users/Tim/SiteMap2/sportenspel/Blank-Template-master/templateDetails.xml",
+		"/C/Users/Tim/SiteMap2/_themes_joomla/siegeengine2/index.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/index.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/Joomla_2_5_nl/templates/beez5/component.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/Joomla_2_5_nl/templates/beez5/templateDetails.xml",
+		"/C/Users/Tim/SiteMap2/sportenspel/Joomla_2_5_nl/templates/beez5/index.php",
+		"/C/Users/Tim/SiteMap2/sportenspel/index.html",
+		"/C/wamp/www/phpleer/database_connection.php",
+		"/C/wamp/www/phpleer/app_config.php",
+		"/C/wamp/www/phpleer/create_user.php",
+		"/C/wamp/www/phpleer/formInputFill.php",
+		"/C/Users/Tim/SiteMap2/PHPMySQLMissingCD/PHP_ch02_files/socialEntryForm_2-2.html",
+		"/C/wamp/www/phpleer/css/phpMM.css",
+		"/C/wamp/www/teff_zurb/wp-config.php",
+		"/C/wamp/www/phpleer/test_connect.php",
+		"/C/Fraps/HELP/help_movies.htm",
+		"/C/Users/Tim/SiteMap2/teff_zurb/header.php",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_wp/wp-config.php",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_wp/.htaccess",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/practice/js/script.js",
+		"/C/wamp/www/wordpress/wp-content/themes/bones/style.css",
+		"/C/wamp/www/wordpress/wp-content/themes/bones/library/scss/config.rb",
+		"/C/wamp/www/wordpress/wp-content/themes/bones/library/config.rb",
+		"/C/wamp/www/teff_zurb/teff/index.html",
+		"/C/wamp/www/witte-merel-wp_theme/header.php",
+		"/C/wamp/www/witte-merel-wp_theme/index.php",
+		"/C/Users/Tim/SiteMap2/teff_zurb/scss/_base",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_wp/wp-content/themes/bones/library/scss/_custom-fonts.scss",
+		"/C/Users/Tim/SiteMap2/timdoppenberg_nl/_scraps/_legacy/1-27-2013/index.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"\"",
+			"'",
+			"make",
+			"'",
+			"<span",
+			"' => '",
+			"'  => '",
+			"'",
+			"\"",
+			"-1",
+			"61",
+			"h2",
+			"2",
+			"medium",
+			"div",
+			"leftTriple",
+			" ;",
+			"page_bar",
+			"return",
+			"page_bar",
+			"GLOBAL",
+			"echo",
+			"print",
+			"echo",
+			"page_bar",
+			"'page_bar",
+			"opdrachtgevers",
+			"618",
+			"1.",
+			"true",
+			"<?php",
+			"?>",
+			"true",
+			"false",
+			"s",
+			", $ver = false",
+			" $deps = array",
+			"normalize",
+			"images",
+			"fadeIn('slow')",
+			"show('fold')",
+			"Ads",
+			"Kdb",
+			"Ads",
+			" nisi ut aliquip ex ea commodo\n						consequat.",
+			"Excepteur sint occaecat cupidatat non\n					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"Lees meer ...",
+			"white",
+			"0,7",
+			"hsla",
+			"\\",
+			"deelnemers",
+			"Deelnemers",
+			"leftColumn",
+			"deelnemers",
+			"Deelnemers",
+			"leftColumn",
+			"Aan De Slag",
+			"hiddenAds",
+			"revealWrapAds",
+			"Aan De Slag",
+			"hiddenAds",
+			"revealWrapAds",
+			"h2",
+			"\"",
+			"zorbit_slider_image",
+			"fwds_slider_upload",
+			"mainContent",
+			"fold",
+			"widtget",
+			"images",
+			"black",
+			"white",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"1",
+			"images",
+			"/phpMM/",
+			"nav",
+			"top-nav",
+			"h2",
+			"box-sh",
+			"$script"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"page_bar",
+			"$dark",
+			"$light",
+			"../images",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/sass/partials/_page.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5184,
+								5184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7628.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							],
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/header-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4393,
+								4393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1499.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								950,
+								950
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							],
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2570,
+								2570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1701.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/wamp/www/wordpress2/wp-content/plugins/quote-lab/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 662.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/wamp/www/wordpress2/wp-content/themes/witteMerel/sass/partials/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3807.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 34.0
+	},
+	"output.sftp":
+	{
+		"height": 34.0
+	},
+	"project": "witteMerel.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"sass/partials/_base.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 390.0,
+		"selected_items":
+		[
+		],
+		"width": 390.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
